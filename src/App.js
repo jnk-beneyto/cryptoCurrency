@@ -1,7 +1,18 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Header from "./components/header";
 
 function App() {
-	return <h1 className="text text-center App">CryptoCurrency</h1>;
+	return (
+		<Fragment>
+			<Header title="Cotizador de Criptomonedas" />
+			<div className="container">
+				<div className="row">
+					<div className="col-sm-12 col-md-6">logo</div>
+					<div className="col-sm-12 col-md-6">form</div>
+				</div>
+			</div>
+		</Fragment>
+	);
 }
 
 export default App;

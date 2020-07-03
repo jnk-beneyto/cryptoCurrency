@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Header from "./components/header";
+import Form from "./components/form";
 import styled from "@emotion/styled";
-
 import image from "./img/cryptocurrency.png";
 
 const Imagecontainer = styled.img`
@@ -18,7 +18,7 @@ function App() {
 						<Imagecontainer src={image} alt="imagen" />
 					</div>
 					<div className="col-sm-12 col-md-6">
-						<h3>Selecciona moneda:</h3>{" "}
+						<h3>Selecciona moneda:</h3> <Form />
 					</div>
 				</div>
 			</div>

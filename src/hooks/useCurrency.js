@@ -4,8 +4,12 @@ import styled from "@emotion/styled";
 //styling component
 
 const Select = styled.select`
+	-webkit-appearance: none;
+	display: block;
 	width: 50%;
-	height: 30px;
+	padding: 1rem;
+	border: none;
+	border-radius: 5px;
 	margin-bottom: 2rem;
 	background-color: whitesmoke;
 `;

@@ -6,7 +6,7 @@ import styled from "@emotion/styled";
 const Select = styled.select`
 	-webkit-appearance: none;
 	display: block;
-	width: 50%;
+	width: 100%;
 	padding: 1rem;
 	border: none;
 	border-radius: 5px;
@@ -30,7 +30,7 @@ const useCurrency = (label, initialState, CURRENCY) => {
 				<option value="">- Selecciona -</option>
 				{CURRENCY.map(value => (
 					<option key={value.cod} val={value.cod}>
-						{value.name}
+						{value.cod}
 					</option>
 				))}{" "}
 			</Select>
